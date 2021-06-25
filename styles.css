@@ -1,0 +1,104 @@
+body {
+font-family: 'Lobster', cursive;
+margin: 0;
+background-image: linear-gradient(0deg, #a0a2a3,#e3e6e8);
+}
+
+.navcontainer {
+  background-color: #2F898A;
+}
+
+li {
+  font-weight: bold;
+}
+
+.brand {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.container1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.business {
+  height: 400px;
+  width: 750px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content2 {
+  border-bottom: solid thin white;
+  border-top: solid thin white;
+  padding-top: 2rem;
+  background-color: #E2E2E2;
+}
+
+.footer-title {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  text-align: right;
+}
+
+.link {
+  text-align: center;
+  width: auto;
+}
+
+.imglink {
+  width: 180px;
+  max-width: 100%;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.link {
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #f0d62e;
+  border-radius: 8px;
+  text-decoration: none;
+  border: solid thin black;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+  background-color: #2F898A;
+  color: white;
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+
+  .link {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
